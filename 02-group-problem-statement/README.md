@@ -249,8 +249,8 @@ Fallback: nếu chat quá rối / thiếu ngữ cảnh -> Dùng template thủ c
 
 ### Bước 6.1 — So sánh Rule / Workflow / Agent
 
-| Mức | Phương án cho bài toán nhóm | Khi nào đủ | Rủi ro | Chọn? |
-|---|---|---|---|---|
+| Mức | Phương án cho bài toán nhóm | Khi nào đủ | Rủi ro |
+|---|---|---|---|
 | **Rule** | Dùng template meeting notes + format chat cố định để mọi người tự điền. | Team nhỏ, ít thảo luận, có kỷ luật cao. | Thành viên không tuân thủ format, vẫn phải đọc thủ công. |
 | **Workflow** | AI đọc thread chat raw $\rightarrow$ trích xuất Task/Owner/Deadline $\rightarrow$ tạo draft checklist $\rightarrow$ Trưởng nhóm review. | Thảo luận dài, nhiều task và nhiều người tham gia. | AI hiểu sai context chat hoặc gán sai deadline/owner. | 
 | **Agent** | Agent tự theo dõi đoạn chat, tự động hỏi lại để làm rõ, tự assign task và nhắc deadline trực tiếp trong group. | Team rất lớn, nhiều giai đoạn dự án phức tạp cần tự động hóa cao. | Over-engineering, dễ spam nhóm chat, khó kiểm soát hành vi của AI. |
